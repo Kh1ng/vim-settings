@@ -172,6 +172,7 @@ lvim.builtin.treesitter.highlight.enable = true
 lvim.plugins = {
   {
     "github/copilot.vim",
+    "theprimeagen/vim-be-good",
   },
 }
 
@@ -188,5 +189,5 @@ lvim.plugins = {
 --     require("nvim-treesitter.highlight").attach(0, "bash")
 --   end,
 -- })
-
+vim.opt.relativenumber = true
 lvim.transparent_window = true
