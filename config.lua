@@ -173,6 +173,7 @@ lvim.plugins = {
   {
     "github/copilot.vim",
     "theprimeagen/vim-be-good",
+    "vimsence/vimsence"
   },
 }
 
