@@ -15,6 +15,12 @@ lvim.colorscheme = "lunar"
 -- to disable icons and use a minimalist setup, uncomment the following
 -- lvim.use_icons = false
 
+--set vim vim-tmux-navigator keybinds
+lvim.keys.normal_mode["<C-h>"] = "<cmd>TmuxNavigateLeft<CR>"
+lvim.keys.normal_mode["<C-j>"] = "<cmd>TmuxNavigateDown<CR>"
+lvim.keys.normal_mode["<C-k>"] = "<cmd>TmuxNavigateUp<CR>"
+lvim.keys.normal_mode["<C-l>"] = "<cmd>TmuxNavigateRight<CR>"
+
 -- keymappings [view all the defaults by pressing <leader>Lk]
 lvim.leader = "space"
 -- add your own keymapping
@@ -173,12 +179,19 @@ lvim.plugins = {
   {
     "github/copilot.vim",
     "theprimeagen/vim-be-good",
+<<<<<<< HEAD
     "vimsence/vimsence",
     {
       "christoomey/vim-tmux-navigator",  
       lazy = false
     },
     "tpope/vim-fugitive"
+=======
+    {
+      "christoomey/vim-tmux-navigator",
+      lazy = false,
+    }
+>>>>>>> 8261ff0 (tmux)
   },
 }
 
