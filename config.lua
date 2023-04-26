@@ -173,7 +173,12 @@ lvim.plugins = {
   {
     "github/copilot.vim",
     "theprimeagen/vim-be-good",
-    "vimsence/vimsence"
+    "vimsence/vimsence",
+    {
+      "christoomey/vim-tmux-navigator",  
+      lazy = false
+    },
+    "tpope/vim-fugitive"
   },
 }
 
